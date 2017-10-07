@@ -1,0 +1,28 @@
+{
+  "name": "acl-2017",
+  "version": "1.0.0",
+  "description": "ACL 2017 - The Daily Texan Feature",
+  "main": "index.js",
+  "dependencies": {
+    "bourbon": "^4.3.4",
+    "bourbon-neat": "^1.9.0",
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedailytexan/acl-2017.git"
+  },
+  "author": "Anna Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedailytexan/acl-2017/issues"
+  },
+  "homepage": "https://github.com/thedailytexan/acl-2017#readme"
+}

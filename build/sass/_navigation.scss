@@ -1,0 +1,35 @@
+nav {
+	@include outer-container;
+	text-align: center;
+	border-top: 1px solid $black;
+	border-bottom: 1px solid $black;
+	width: 50%;
+	margin-bottom: 5%;
+
+	a {
+		text-decoration: none;
+
+		h1 {
+			&:hover {
+				color: $gray;
+			}
+		}
+		
+	}
+}
+
+.navigation-text {
+	color: $orange;
+	font-family: $font-sans;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+
+#logo {
+	@include outer-container;
+	padding: 5% 0 1.5% 0;
+	text-align: center;
+}
+

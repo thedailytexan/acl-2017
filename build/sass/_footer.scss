@@ -1,0 +1,55 @@
+footer {
+	@include outer-container;
+	margin-top: 5%;
+	padding: 3%;
+	width: 80%;
+	border-top: 1px solid $black;
+
+	label {
+		font-family: $font-sans;
+		font-size: 1rem;
+		font-weight: 800;
+
+	}
+
+	input::placeholder {
+		font-family: $font-sans;
+
+	}
+
+	#email-input {
+
+		@media screen and (min-width: 320px) and (max-width: 480px)
+		{
+			@include span-columns(12);
+		}
+		@include span-columns(6);
+		
+		#mce-EMAIL {
+			margin: 2% 0;
+			width: 100%;
+			padding: 2%;
+		}
+
+	}
+
+	#mc-embedded-subscribe {
+		background-color: $orange;
+		padding: 3%;
+		border: none;
+		font-family: $font-sans;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		color: white;
+		border-radius: 5px;
+
+		&:hover {
+			background-color: $orange-dark;
+		}
+
+		&:focus {
+			outline: none;
+		}
+
+	}
+}
